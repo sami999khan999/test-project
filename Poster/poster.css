@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Bebas Neue', cursive;
+  color: rgb(223, 223, 223);
+  background-image: url(https://wallpaperaccess.com/full/5372358.png);
+  width: 100%;
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 50px;
+  background-position: center;
+}
+.card-wrapper {
+   width: 400px;
+  background-color: rgba(14, 14, 17, 0.61);
+  margin: 200px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 5px 5px 25px 10px rgba(0, 0, 0, 0.1);
+}
+.card-image {
+  width: 400px;
+  height: 550px;
+  overflow: hidden;
+  background-color: rgba(0, 85, 71, 0.267);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.card-image img {
+  width: 400px;
+}
+.card-image:hover img {
+ filter: opacity(.8);
+}
+#imdb-ratting {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 177, 177);
+  color: white;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 0 0px 10px 0px;
+  font-size: 1.5rem;
+}
+#rotten-tomatos-rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: tomato;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 0 0 0 10px;
+   font-size: 1.5rem;
+}
+.card-details h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 900;
+  color: rgba(173, 1, 24, 0.836);
+  text-align: center;
+}
+.card-details p {
+  font-size: 1.7rem;
+  text-align: justify;
+  margin-bottom: 15px;
+  color: rgba(168, 168, 168, 0.767);
+}
+.card-details p:nth-child(2) {
+  color: rgba(240, 217, 90, 0.74);
+  font-size: 1.3rem;
+}
+.card-details a {
+  text-decoration: none;
+  background-color: rgba(0, 247, 255, 0.418);
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 4px;
+  display: block;
+  text-align: center;
+  border-radius: 3px;
+  padding: 4px;
+  margin-bottom: 20px;
+  transition: .4s;
+}
+.card-details a:hover {
+  background-color: rgb(26, 193, 199);
+  color: white;
+  letter-spacing: 10px;
+}
+.card-details a:after {
+  background-color: rgba(0, 247, 255, 0.486);
+}
+.fa-youtube {
+  margin-right: 10px;
+}
