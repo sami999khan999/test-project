@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #444;
+}
+
+.card-container {
+  margin: 100px auto;
+  background-color: rgb(26, 26, 26);
+  max-width: 500px;
+  height: 650px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #000000, -5px -5px 10px #ebebd5;
+  padding: 25px;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  outline: 4px solid rgb(0, 0, 0);
+  outline-offset: 5px;
+}
+
+.card-image {
+  cursor: pointer;
+}
+
+.card-image img:hover {
+  filter: grayscale(1);
+}
+
+.card-details {
+  text-align: center;
+  margin-top: 25px;
+  color: rgb(201, 201, 201);
+}
+
+.card-details h2 {
+  font-size: 2.6rem;
+  letter-spacing: 10px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.card-details p {
+  font-size: 1.2rem;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.card-details .designation {
+  text-align: center;
+  color: rgb(139, 139, 139);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.card-details a {
+  text-decoration: none;
+  background-color: rgb(70, 69, 69);
+  color: rgb(192, 192, 192);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 8px 28px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.card-details a:hover {
+  background-color: #444;
+}
+
+.card-details a:active {
+  outline: 5px solid lightseagreen;
+}
