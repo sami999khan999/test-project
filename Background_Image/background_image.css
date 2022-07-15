@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@300;400&family=Zilla+Slab:wght@400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Zilla Slab', serif;
+  color: #444;
+  background-image: url(https://images.unsplash.com/photo-1597304055693-c5a2c84d62e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8&w=1000&q=80);
+  background-size: 300vh;
+}
+.logo h1 {
+  text-transform: uppercase;
+  word-spacing: 15px;
+  letter-spacing: 8px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgba(255, 254, 254, 0.651);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.logo h1:hover {
+  letter-spacing: 15px;
+  color: aqua; 
+
+}
+.bg-container {
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  border-radius: 10px;
+  
+  
+}
+.mercury {
+  background-image: url(https://starwalk.space/gallery/images/facts-about-mercury/1920x1080.jpg);
+}
+.venus {
+  background-image: url(https://static01.nyt.com/images/2020/09/14/science/14SCI-VENUS1-alt/14SCI-VENUS1-alt-superJumbo.jpg);
+}
+.earth {
+  background-image: url(https://wallpaperaccess.com/full/19608.jpg);
+}
+.mars {
+  background-image: url(https://wallpaperaccess.com/full/527447.jpg);
+}
+.jupiter {
+  background-image: url(https://wallpaperaccess.com/full/223952.jpg);
+}
+.saturn {
+  background-image: url(https://blenderartists.org/uploads/default/original/4X/6/6/9/6692a8f37c21bdb951697b8e6798b8e01b1e8ae1.jpg);
+}
+.uranus {
+  background-image: url(https://images.unsplash.com/photo-1639921884918-8d28ab2e39a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXJhbnVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+}
+.neptune {
+  background-image: url(https://www.grunge.com/img/gallery/heres-how-long-one-year-on-neptune-equates-to-on-earth/l-intro-1651119623.jpg);
+}
+.bg-container h1 {
+  color: rgba(189, 189, 189, 0.747);
+  font-size: 4rem;
+  letter-spacing: 5px;
+  padding: 400px 0 0 75px;
+}
+.details-container {
+  margin: 75px;
+  text-align: center; 
+}
+.details-container h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: rgba(187, 209, 209, 0.747);
+}
+.details-container p {
+  text-align: justify;
+  font-size: 1.8rem;
+  color: rgb(121, 164, 180);
+}
+.details-container a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.767);
+  background-color: rgba(115, 236, 255, 0.336);
+  padding: 8px 20px;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: .5s;
+}
+.details-container a:hover {
+  background-color: rgb(10, 190, 190);
+  letter-spacing: 15px;
+  color: black;
+  
+}
+.details-container a:active {
+  outline: 5px solid rgb(0, 255, 234);
+}
+footer p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+}
+
+
+
+
+
+
+
+
