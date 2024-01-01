@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <!-- Include Tailwind CSS styles -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body
+    class="bg-cover bg-center h-screen flex items-center justify-center p-2 sm:p-8 bg-gradient-to-br from-blue-500 to-purple-500"
+    style="background-image: url(./image/beijingban.1af79c8a.png)"
+  >
+    <div class="logo absolute flex top-20 left-8 text-white gap-5">
+      <span class="ml-2 mt-8 italic">log in</span>
+      <img class="h-18 w-18" src="./image/logo.9136e0ce.png" alt="" />
+    </div>
+
+    <div class="bg-white p-4 pt-6 sm:p-8 rounded-lg shadow-md w-full md:w-96">
+      <form>
+        <div class="mb-4 relative">
+          <label
+            for="username"
+            class="block text-gray-700 text-sm font-medium border-none"
+            >Account</label
+          >
+          <input
+            type="number"
+            id="number"
+            name="number"
+            placeholder="Telephone Number"
+            class="mt-1 p-2 w-full border rounded text-xs tracking-tight word-spacing-tight border-none bg-gray-100"
+          />
+        </div>
+
+        <div class="mb-4 relative">
+          <label
+            for="password"
+            class="block text-gray-700 text-sm font-medium border-none"
+            >Password</label
+          >
+          <div class="flex items-center">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Please enter your password"
+              class="mt-1 p-2 w-full border rounded text-xs tracking-tight border-none bg-gray-100"
+            />
+            <button
+              type="button"
+              class="absolute right-0 mr-2 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="h-4 w-4 text-gray-500 hover:text-gray-700 cursor-pointer"
+                onclick="togglePasswordVisibility()"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <button
+          type="submit"
+          class="bg-blue-500 text-white p-2 rounded hover:bg-blue-600 w-full"
+        >
+          Login
+        </button>
+        <span class="text-xs flex mt-8 ml-12 mb-2"
+          >Don't have an account?Sign up</span
+        >
+      </form>
+    </div>
+
+    <script>
+      function togglePasswordVisibility() {
+        const passwordInput = document.getElementById("password");
+        passwordInput.type =
+          passwordInput.type === "password" ? "text" : "password";
+      }
+    </script>
+  </body>
+</html>
