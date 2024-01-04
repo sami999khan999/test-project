@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(241, 237, 227);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 13px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+h2 {
+  font-size: 26px;
+  color: rgb(255, 166, 0);
+}
+
+span {
+  font-size: 18px;
+  color: orange;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  color: #aaa;
+}
+
+/* Style the right side of each record entry (empty in this case) */
+.right {
+  flex-shrink: 0; /* Do not shrink the right side */
+  width: 50px; /* Set a fixed width */
+  height: 6rem; /* Set a fixed height */
+  background-color: rgba(255, 136, 0, 0.24);
+  border-radius: 5px;
+}
+
+.tick {
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 1.8rem;
+}
